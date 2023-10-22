@@ -41,9 +41,8 @@
                                     <action selector="ButPlus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LrH-6S-0rq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQa-1l-EJd">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQa-1l-EJd">
                                 <rect key="frame" x="159" y="391" width="75" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.46666663889999999" green="0.64313727620000005" blue="0.86666667460000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" image="minus.circle" catalog="system">
@@ -54,18 +53,37 @@
                                     <action selector="ButMinus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N1l-uT-XyJ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="37y-My-hI6">
+                                <rect key="frame" x="146" y="113" width="101" height="35"/>
+                                <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Обнулить"/>
+                                <connections>
+                                    <action selector="Restart:" destination="BYZ-38-t0r" eventType="touchUpInside" id="i2d-02-yA8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZQa-1l-EJd" secondAttribute="trailing" constant="159" id="1xD-q5-7dc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5wK-WE-Mtg" secondAttribute="bottom" constant="566" id="2TD-Md-W2c"/>
                             <constraint firstItem="94i-r4-B6Y" firstAttribute="top" secondItem="5wK-WE-Mtg" secondAttribute="bottom" constant="27" id="3li-eL-NRm"/>
                             <constraint firstItem="94i-r4-B6Y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="159" id="4gi-qe-ums"/>
                             <constraint firstItem="5wK-WE-Mtg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="90" id="5Jy-jM-aSE"/>
+                            <constraint firstItem="ZQa-1l-EJd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="159" id="8Ri-Td-TjP"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="94i-r4-B6Y" secondAttribute="bottom" constant="504" id="AQb-sd-Q3S"/>
+                            <constraint firstItem="37y-My-hI6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="54" id="C07-vX-rGe"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5wK-WE-Mtg" secondAttribute="trailing" constant="110" id="GNr-NA-88I"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="37y-My-hI6" secondAttribute="bottom" constant="670" id="GgW-Gh-ngD"/>
+                            <constraint firstItem="ZQa-1l-EJd" firstAttribute="top" secondItem="94i-r4-B6Y" secondAttribute="bottom" constant="77" id="H8u-go-1LA"/>
+                            <constraint firstItem="ZQa-1l-EJd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="332" id="RYB-Nk-jjI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZQa-1l-EJd" secondAttribute="bottom" constant="392" id="SOy-lg-nQk"/>
                             <constraint firstItem="94i-r4-B6Y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="220" id="Smq-2l-1wF"/>
+                            <constraint firstItem="37y-My-hI6" firstAttribute="leading" secondItem="5wK-WE-Mtg" secondAttribute="trailing" constant="-137" id="Up7-bt-030"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="37y-My-hI6" secondAttribute="trailing" constant="146" id="W4R-rD-aFK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="94i-r4-B6Y" secondAttribute="trailing" constant="159" id="ekQ-sa-Pqe"/>
+                            <constraint firstItem="37y-My-hI6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="146" id="gQy-sk-SXM"/>
                             <constraint firstItem="5wK-WE-Mtg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="110" id="y91-qv-lTt"/>
                         </constraints>
                     </view>

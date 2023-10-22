@@ -32,6 +32,14 @@ class ViewController: UIViewController {
     //Если минус -1 и обнуляем. Нашел материал что можно две кнопки в одну закрплять но не стал рисковать и сделал простым путем
     
     
+    @IBAction func Restart(_ sender: Any) {
+        sum = 0
+        TextMetre.text =  "Значение счётчика: \n" + "\(sum)"
+    }
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
